@@ -1,0 +1,203 @@
+{
+    "radioSelections": [
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vza_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vza_sperrkz"
+                        },
+                        {
+                            "attributeName": "vzs_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vzs_sperrkz"
+                        },
+                        {
+                            "attributeName": "vza_inspwert_quant"
+                        },
+                        {
+                            "attributeName": "vzs_inspwert_quant"
+                        }
+                    ],
+                    "groupName": "Test"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vzw_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vzw_sperrkz"
+                        },
+                        {
+                            "attributeName": "vzw_inspwert_quant"
+                        }
+                    ],
+                    "groupName": "VZW"
+                }
+            ],
+            "radioName": "Inspektion"
+        },
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "area_vmf_os"
+                        },
+                        {
+                            "attributeName": "area_vmf_us"
+                        },
+                        {
+                            "attributeName": "count_vmf_os"
+                        },
+                        {
+                            "attributeName": "count_vmf_us"
+                        },
+                        {
+                            "attributeName": "sp_breite_vmf_os"
+                        },
+                        {
+                            "attributeName": "sp_breite_vmf_us"
+                        }
+                    ],
+                    "groupName": "VMF"
+                }
+            ],
+            "radioName": "OIG"
+        },
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "dicke_g5"
+                        }
+                    ],
+                    "groupName": "Dicke_G5"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "f0_q1c4"
+                        }
+                    ],
+                    "groupName": "f0_q1c4"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "fs_v1c"
+                        }
+                    ],
+                    "groupName": "fs_v1c"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "mewe_ht"
+                        },
+                        {
+                            "attributeName": "mewe_et"
+                        }
+                    ],
+                    "groupName": "mewe"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "sch_tu1c"
+                        },
+                        {
+                            "attributeName": "sch_to1c"
+                        }
+                    ],
+                    "groupName": "Scht"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "offset_oig"
+                        }
+                    ],
+                    "groupName": "Test"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "v_bandg5"
+                        }
+                    ],
+                    "groupName": "v_bandg5"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "voreilg3"
+                        },
+                        {
+                            "attributeName": "voreilg2"
+                        }
+                    ],
+                    "groupName": "Voreilg"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vorstemp"
+                        }
+                    ],
+                    "groupName": "vorstemp"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "f_walzg3"
+                        },
+                        {
+                            "attributeName": "f_walzg2"
+                        }
+                    ],
+                    "groupName": "Walze"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "beizgeschwindigkeit"
+                        }
+                    ],
+                    "groupName": "Beizgeschwindigkeit"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "beizzeit"
+                        }
+                    ],
+                    "groupName": "Beizzeit"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "inhikonz"
+                        }
+                    ],
+                    "groupName": "inhikonz"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "temp_beizmedium"
+                        }
+                    ],
+                    "groupName": "temp_beizmedium"
+                }
+            ],
+            "radioName": "Prozessdaten"
+        }
+    ]
+}
