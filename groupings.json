@@ -1,0 +1,234 @@
+{
+    "radioSelections": [
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vza_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vza_sperrkz"
+                        },
+                        {
+                            "attributeName": "vzs_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vzs_sperrkz"
+                        },
+                        {
+                            "attributeName": "vza_inspwert_quant"
+                        },
+                        {
+                            "attributeName": "vzs_inspwert_quant"
+                        }
+                    ],
+                    "groupName": "Test"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vzw_inspwert_qual"
+                        },
+                        {
+                            "attributeName": "vzw_sperrkz"
+                        },
+                        {
+                            "attributeName": "vzw_inspwert_quant"
+                        }
+                    ],
+                    "groupName": "VZW"
+                }
+            ],
+            "radioName": "Inspektion",
+            "filterSelections": []
+        },
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "area_vmf_os"
+                        },
+                        {
+                            "attributeName": "area_vmf_us"
+                        },
+                        {
+                            "attributeName": "count_vmf_os"
+                        },
+                        {
+                            "attributeName": "count_vmf_us"
+                        },
+                        {
+                            "attributeName": "sp_breite_vmf_os"
+                        },
+                        {
+                            "attributeName": "sp_breite_vmf_us"
+                        }
+                    ],
+                    "groupName": "VMF"
+                }
+            ],
+            "radioName": "OIG",
+            "filterSelections": [
+                {
+                    "filterName": "Fläche",
+                    "filterKey": "area"
+                },
+                {
+                    "filterName": "Anzahl",
+                    "filterKey": "count"
+                }
+            ]
+        },
+        {
+            "groupSelections": [
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "inhikonz"
+                        }
+                    ],
+                    "groupName": "inhikonz"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "voreilg2"
+                        },
+                        {
+                            "attributeName": "voreilg3"
+                        }
+                    ],
+                    "groupName": "Voreilg"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "dicke_g5"
+                        }
+                    ],
+                    "groupName": "Dicke_G5"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "offset_oig"
+                        }
+                    ],
+                    "groupName": "Test"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "f_walzg3"
+                        },
+                        {
+                            "attributeName": "f_walzg2"
+                        }
+                    ],
+                    "groupName": "Walze"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "fs_v1c"
+                        }
+                    ],
+                    "groupName": "fs_v1c"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "beizzeit"
+                        }
+                    ],
+                    "groupName": "Beizzeit"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "temp_beizmedium"
+                        }
+                    ],
+                    "groupName": "temp_beizmedium"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "beizgeschwindigkeit"
+                        }
+                    ],
+                    "groupName": "Beizgeschwindigkeit"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "mewe_ht"
+                        },
+                        {
+                            "attributeName": "mewe_et"
+                        }
+                    ],
+                    "groupName": "mewe"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "f0_q1c4"
+                        }
+                    ],
+                    "groupName": "f0_q1c4"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "sch_to1c"
+                        },
+                        {
+                            "attributeName": "sch_tu1c"
+                        }
+                    ],
+                    "groupName": "Scht"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "v_bandg5"
+                        }
+                    ],
+                    "groupName": "v_bandg5"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "vorstemp"
+                        }
+                    ],
+                    "groupName": "vorstemp"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "em_us_a"
+                        },
+                        {
+                            "attributeName": "em_os_a"
+                        }
+                    ],
+                    "groupName": "EM"
+                },
+                {
+                    "attributes": [
+                        {
+                            "attributeName": "tempind2"
+                        }
+                    ],
+                    "groupName": "tempind2"
+                }
+            ],
+            "radioName": "Prozessdaten",
+            "filterSelections": []
+        }
+    ]
+}
