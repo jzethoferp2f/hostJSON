@@ -912,7 +912,7 @@
                             "attributeName": "vza_sperrkz"
                         }
                     ],
-                    "groupName": "vza"
+                    "groupName": "VZA - Zinkpatzen"
                 },
                 {
                     "attributes": [
@@ -929,7 +929,7 @@
                             "attributeName": "vzc_sperrkz"
                         }
                     ],
-                    "groupName": "vzc"
+                    "groupName": "VZC - Schlackenspritzer,Schlackenstreifen"
                 },
                 {
                     "attributes": [
@@ -946,7 +946,7 @@
                             "attributeName": "vzd_sperrkz"
                         }
                     ],
-                    "groupName": "vzd"
+                    "groupName": "VZD - Duesenstreifen"
                 },
                 {
                     "attributes": [
@@ -963,7 +963,7 @@
                             "attributeName": "chg_sperrkz"
                         }
                     ],
-                    "groupName": "chg"
+                    "groupName": "CHG - Chargieren Zinkband"
                 },
                 {
                     "attributes": [
@@ -980,7 +980,7 @@
                             "attributeName": "ssr_sperrkz"
                         }
                     ],
-                    "groupName": "ssr"
+                    "groupName": "SSR - Schaben Stabirolle"
                 },
                 {
                     "attributes": [
@@ -997,7 +997,7 @@
                             "attributeName": "sko_sperrkz"
                         }
                     ],
-                    "groupName": "sko"
+                    "groupName": "SKO - Schaben Korrekturrolle"
                 },
                 {
                     "attributes": [
@@ -1014,7 +1014,7 @@
                             "attributeName": "sbr_sperrkz"
                         }
                     ],
-                    "groupName": "sbr"
+                    "groupName": "SBR - Schaben Bodenrolle"
                 },
                 {
                     "attributes": [
@@ -1031,7 +1031,7 @@
                             "attributeName": "ash_sperrkz"
                         }
                     ],
-                    "groupName": "ash"
+                    "groupName": "ASH - abschlacken Zinkbad Hand"
                 },
                 {
                     "attributes": [
@@ -1048,7 +1048,7 @@
                             "attributeName": "asp_sperrkz"
                         }
                     ],
-                    "groupName": "asp"
+                    "groupName": "ASP - abschlacken Zinkbad Moped"
                 },
                 {
                     "attributes": [
@@ -1065,7 +1065,7 @@
                             "attributeName": "asr_sperrkz"
                         }
                     ],
-                    "groupName": "asr"
+                    "groupName": "ASR - abschlacken Zinkbad Roboter"
                 },
                 {
                     "attributes": [
@@ -1082,7 +1082,7 @@
                             "attributeName": "azh_sperrkz"
                         }
                     ],
-                    "groupName": "azh"
+                    "groupName": "AZH - Zurückziehen Hand"
                 },
                 {
                     "attributes": [
@@ -1099,7 +1099,7 @@
                             "attributeName": "azr_sperrkz"
                         }
                     ],
-                    "groupName": "azr"
+                    "groupName": "AZR - Zurückziehen Roboter"
                 },
                 {
                     "attributes": [
@@ -1116,7 +1116,7 @@
                             "attributeName": "azs_sperrkz"
                         }
                     ],
-                    "groupName": "azs"
+                    "groupName": "AZS - Abziehen seitwärts"
                 },
                 {
                     "attributes": [
@@ -1133,7 +1133,7 @@
                             "attributeName": "sfy_sperrkz"
                         }
                     ],
-                    "groupName": "sfy"
+                    "groupName": "SFY - Sonderfehler Y"
                 },
                 {
                     "attributes": [
@@ -1150,7 +1150,7 @@
                             "attributeName": "srr_sperrkz"
                         }
                     ],
-                    "groupName": "srr"
+                    "groupName": "SRR - Schaufel Reinigen Roboter"
                 },
                 {
                     "attributes": [
@@ -1167,7 +1167,7 @@
                             "attributeName": "ruw_sperrkz"
                         }
                     ],
-                    "groupName": "ruw"
+                    "groupName": "RUW - Ruesselinnen wobbeln"
                 },
                 {
                     "attributes": [
@@ -1184,7 +1184,7 @@
                             "attributeName": "tzo_sperrkz"
                         }
                     ],
-                    "groupName": "tzo"
+                    "groupName": "TZO - Zinkbadtemperatur überschritten"
                 },
                 {
                     "attributes": [
@@ -1201,7 +1201,7 @@
                             "attributeName": "alo_sperrkz"
                         }
                     ],
-                    "groupName": "alo"
+                    "groupName": "ALO - Aluminium (AL-Deal) Zinkbad uebersch."
                 },
                 {
                     "attributes": [
@@ -1218,7 +1218,7 @@
                             "attributeName": "alu_sperrkz"
                         }
                     ],
-                    "groupName": "alu"
+                    "groupName": "ALU - Aluminium (AL-Deal) Zinkbad unterschr."
                 },
                 {
                     "attributes": [
@@ -1235,7 +1235,7 @@
                             "attributeName": "bst_sperrkz"
                         }
                     ],
-                    "groupName": "bst"
+                    "groupName": "BST - Bandstillstand im Ofen"
                 },
                 {
                     "attributes": [
@@ -1252,7 +1252,7 @@
                             "attributeName": "dvz_sperrkz"
                         }
                     ],
-                    "groupName": "dvz"
+                    "groupName": "DVZ - fehlende Messwerte Zinkschicht"
                 },
                 {
                     "attributes": [
@@ -1269,7 +1269,7 @@
                             "attributeName": "feo_sperrkz"
                         }
                     ],
-                    "groupName": "feo"
+                    "groupName": "FEO - Eisengehalt in der ZF-Schicht ueberschr."
                 },
                 {
                     "attributes": [
@@ -1286,7 +1286,7 @@
                             "attributeName": "feu_sperrkz"
                         }
                     ],
-                    "groupName": "feu"
+                    "groupName": "FEU - Eisengehalt in der ZF-Schicht unterschr."
                 },
                 {
                     "attributes": [
@@ -1303,7 +1303,7 @@
                             "attributeName": "kau_sperrkz"
                         }
                     ],
-                    "groupName": "kau"
+                    "groupName": "KAU - Kante unverzinkt"
                 },
                 {
                     "attributes": [
@@ -1320,7 +1320,7 @@
                             "attributeName": "kei_sperrkz"
                         }
                     ],
-                    "groupName": "kei"
+                    "groupName": "KEI - Querprofilfehler - Keil"
                 },
                 {
                     "attributes": [
@@ -1337,7 +1337,7 @@
                             "attributeName": "kni_sperrkz"
                         }
                     ],
-                    "groupName": "kni"
+                    "groupName": "KNI - Knicke"
                 },
                 {
                     "attributes": [
@@ -1354,7 +1354,7 @@
                             "attributeName": "miz_sperrkz"
                         }
                     ],
-                    "groupName": "miz"
+                    "groupName": "MIZ - mittenwellig bei Zinkbad"
                 },
                 {
                     "attributes": [
@@ -1371,7 +1371,7 @@
                             "attributeName": "mts_sperrkz"
                         }
                     ],
-                    "groupName": "mts"
+                    "groupName": "MTS - Traktorspuren"
                 },
                 {
                     "attributes": [
@@ -1388,7 +1388,7 @@
                             "attributeName": "ofz_sperrkz"
                         }
                     ],
-                    "groupName": "ofz"
+                    "groupName": "OFZ - Ofenzugfalten"
                 },
                 {
                     "attributes": [
@@ -1405,7 +1405,7 @@
                             "attributeName": "oxd_sperrkz"
                         }
                     ],
-                    "groupName": "oxd"
+                    "groupName": "OXD - oxidiert wegen Druckschwankung Ofen"
                 },
                 {
                     "attributes": [
@@ -1422,7 +1422,7 @@
                             "attributeName": "oxi_sperrkz"
                         }
                     ],
-                    "groupName": "oxi"
+                    "groupName": "OXI - voroxidiert"
                 },
                 {
                     "attributes": [
@@ -1439,7 +1439,7 @@
                             "attributeName": "oxn_sperrkz"
                         }
                     ],
-                    "groupName": "oxn"
+                    "groupName": "OXN - nicht voroxidiert"
                 },
                 {
                     "attributes": [
@@ -1456,7 +1456,7 @@
                             "attributeName": "oxo_sperrkz"
                         }
                     ],
-                    "groupName": "oxo"
+                    "groupName": "OXO - zu stark voroxidiert"
                 },
                 {
                     "attributes": [
@@ -1473,7 +1473,7 @@
                             "attributeName": "oxu_sperrkz"
                         }
                     ],
-                    "groupName": "oxu"
+                    "groupName": "OXU - zu wenig voroxidiert"
                 },
                 {
                     "attributes": [
@@ -1490,7 +1490,7 @@
                             "attributeName": "oze_sperrkz"
                         }
                     ],
-                    "groupName": "oze"
+                    "groupName": "OZE - offene Zeile"
                 },
                 {
                     "attributes": [
@@ -1507,7 +1507,7 @@
                             "attributeName": "pga_sperrkz"
                         }
                     ],
-                    "groupName": "pga"
+                    "groupName": "PGA - ZF-Kratzer"
                 },
                 {
                     "attributes": [
@@ -1524,7 +1524,7 @@
                             "attributeName": "pgb_sperrkz"
                         }
                     ],
-                    "groupName": "pgb"
+                    "groupName": "PGB - ZF-Schicht Eindruck"
                 },
                 {
                     "attributes": [
@@ -1541,7 +1541,7 @@
                             "attributeName": "pgc_sperrkz"
                         }
                     ],
-                    "groupName": "pgc"
+                    "groupName": "PGC - Schmutzpartikel auf ZF-Schicht"
                 },
                 {
                     "attributes": [
@@ -1558,7 +1558,7 @@
                             "attributeName": "pgd_sperrkz"
                         }
                     ],
-                    "groupName": "pgd"
+                    "groupName": "PGD - Flecken/Kreise auf ZF-Schicht"
                 },
                 {
                     "attributes": [
@@ -1575,7 +1575,7 @@
                             "attributeName": "pge_sperrkz"
                         }
                     ],
-                    "groupName": "pge"
+                    "groupName": "PGE - ZnFe-Partikel in der ZF-Schicht"
                 },
                 {
                     "attributes": [
@@ -1592,7 +1592,7 @@
                             "attributeName": "pgf_sperrkz"
                         }
                     ],
-                    "groupName": "pgf"
+                    "groupName": "PGF - Fe2AI5-Partikel in der ZF-Schicht"
                 },
                 {
                     "attributes": [
@@ -1609,7 +1609,7 @@
                             "attributeName": "qwe_sperrkz"
                         }
                     ],
-                    "groupName": "qwe"
+                    "groupName": "QWE - Querwellen"
                 },
                 {
                     "attributes": [
@@ -1626,7 +1626,7 @@
                             "attributeName": "qwo_sperrkz"
                         }
                     ],
-                    "groupName": "qwo"
+                    "groupName": "QWO - Querwoelbung"
                 },
                 {
                     "attributes": [
@@ -1643,7 +1643,7 @@
                             "attributeName": "raz_sperrkz"
                         }
                     ],
-                    "groupName": "raz"
+                    "groupName": "RAZ - randwellig bei Zinkbad"
                 },
                 {
                     "attributes": [
@@ -1660,7 +1660,7 @@
                             "attributeName": "rjm_sperrkz"
                         }
                     ],
-                    "groupName": "rjm"
+                    "groupName": "RJM - RapidJet Modus falsch"
                 },
                 {
                     "attributes": [
@@ -1677,7 +1677,7 @@
                             "attributeName": "sab_sperrkz"
                         }
                     ],
-                    "groupName": "sab"
+                    "groupName": "SAB - Schale breit"
                 },
                 {
                     "attributes": [
@@ -1694,7 +1694,7 @@
                             "attributeName": "sak_sperrkz"
                         }
                     ],
-                    "groupName": "sak"
+                    "groupName": "SAK - Schale klein"
                 },
                 {
                     "attributes": [
@@ -1711,7 +1711,7 @@
                             "attributeName": "sam_sperrkz"
                         }
                     ],
-                    "groupName": "sam"
+                    "groupName": "SAM - Mikroschale"
                 },
                 {
                     "attributes": [
@@ -1728,7 +1728,7 @@
                             "attributeName": "sao_sperrkz"
                         }
                     ],
-                    "groupName": "sao"
+                    "groupName": "SAO - Ofenschale"
                 },
                 {
                     "attributes": [
@@ -1745,7 +1745,7 @@
                             "attributeName": "sas_sperrkz"
                         }
                     ],
-                    "groupName": "sas"
+                    "groupName": "SAS - Schale schmal"
                 },
                 {
                     "attributes": [
@@ -1762,7 +1762,7 @@
                             "attributeName": "tzu_sperrkz"
                         }
                     ],
-                    "groupName": "tzu"
+                    "groupName": "TZU - Zinkbadtemperatur unterschritten"
                 },
                 {
                     "attributes": [
@@ -1779,7 +1779,7 @@
                             "attributeName": "vas_sperrkz"
                         }
                     ],
-                    "groupName": "vas"
+                    "groupName": "VAS - Schichtdicke"
                 },
                 {
                     "attributes": [
@@ -1796,7 +1796,7 @@
                             "attributeName": "vau_sperrkz"
                         }
                     ],
-                    "groupName": "vau"
+                    "groupName": "VAU - Schichtdickenumstellung"
                 },
                 {
                     "attributes": [
@@ -1813,7 +1813,7 @@
                             "attributeName": "vga_sperrkz"
                         }
                     ],
-                    "groupName": "vga"
+                    "groupName": "VGA - nicht galvannealte Oberflaeche"
                 },
                 {
                     "attributes": [
@@ -1830,7 +1830,7 @@
                             "attributeName": "vgf_sperrkz"
                         }
                     ],
-                    "groupName": "vgf"
+                    "groupName": "VGF - Reinzinkflecken"
                 },
                 {
                     "attributes": [
@@ -1847,7 +1847,7 @@
                             "attributeName": "vgh_sperrkz"
                         }
                     ],
-                    "groupName": "vgh"
+                    "groupName": "VGH - marmorierte Oberflaeche"
                 },
                 {
                     "attributes": [
@@ -1864,7 +1864,7 @@
                             "attributeName": "vgo_sperrkz"
                         }
                     ],
-                    "groupName": "vgo"
+                    "groupName": "VGO - Vorgabe deltaT Galv.-Spule zu hoch"
                 },
                 {
                     "attributes": [
@@ -1881,7 +1881,7 @@
                             "attributeName": "vgr_sperrkz"
                         }
                     ],
-                    "groupName": "vgr"
+                    "groupName": "VGR - Reinzinkstreifen"
                 },
                 {
                     "attributes": [
@@ -1898,7 +1898,7 @@
                             "attributeName": "vgt_sperrkz"
                         }
                     ],
-                    "groupName": "vgt"
+                    "groupName": "VGT - Tigerstreifen"
                 },
                 {
                     "attributes": [
@@ -1915,7 +1915,7 @@
                             "attributeName": "vma_sperrkz"
                         }
                     ],
-                    "groupName": "vma"
+                    "groupName": "VMA - Abstreifstreusel"
                 },
                 {
                     "attributes": [
@@ -1932,7 +1932,7 @@
                             "attributeName": "vmb_sperrkz"
                         }
                     ],
-                    "groupName": "vmb"
+                    "groupName": "VMB - Blinker"
                 },
                 {
                     "attributes": [
@@ -1949,7 +1949,7 @@
                             "attributeName": "vmc_sperrkz"
                         }
                     ],
-                    "groupName": "vmc"
+                    "groupName": "VMC - Zink-Magnesium Streifen schmal"
                 },
                 {
                     "attributes": [
@@ -1966,7 +1966,7 @@
                             "attributeName": "vmf_sperrkz"
                         }
                     ],
-                    "groupName": "vmf"
+                    "groupName": "VMF - Ruesselflecken"
                 },
                 {
                     "attributes": [
@@ -1983,7 +1983,7 @@
                             "attributeName": "vmg_sperrkz"
                         }
                     ],
-                    "groupName": "vmg"
+                    "groupName": "VMG - ZM-Grieß"
                 },
                 {
                     "attributes": [
@@ -2000,7 +2000,7 @@
                             "attributeName": "vmp_sperrkz"
                         }
                     ],
-                    "groupName": "vmp"
+                    "groupName": "VMP - schwarze Punkte"
                 },
                 {
                     "attributes": [
@@ -2017,7 +2017,7 @@
                             "attributeName": "vmq_sperrkz"
                         }
                     ],
-                    "groupName": "vmq"
+                    "groupName": "VMQ - Querlinie"
                 },
                 {
                     "attributes": [
@@ -2034,7 +2034,7 @@
                             "attributeName": "vmr_sperrkz"
                         }
                     ],
-                    "groupName": "vmr"
+                    "groupName": "VMR - Zink-Magnesium Streifen breit"
                 },
                 {
                     "attributes": [
@@ -2051,7 +2051,7 @@
                             "attributeName": "vms_sperrkz"
                         }
                     ],
-                    "groupName": "vms"
+                    "groupName": "VMS - Sommersprossen"
                 },
                 {
                     "attributes": [
@@ -2068,7 +2068,7 @@
                             "attributeName": "vnk_sperrkz"
                         }
                     ],
-                    "groupName": "vnk"
+                    "groupName": "VNK - Zinkschichtkratzer"
                 },
                 {
                     "attributes": [
@@ -2085,7 +2085,7 @@
                             "attributeName": "vop_sperrkz"
                         }
                     ],
-                    "groupName": "vop"
+                    "groupName": "VOP - Haftungsproblem wg. Planlage"
                 },
                 {
                     "attributes": [
@@ -2102,7 +2102,7 @@
                             "attributeName": "vou_sperrkz"
                         }
                     ],
-                    "groupName": "vou"
+                    "groupName": "VOU - Unverzinkte Stelle"
                 },
                 {
                     "attributes": [
@@ -2119,7 +2119,7 @@
                             "attributeName": "vov_sperrkz"
                         }
                     ],
-                    "groupName": "vov"
+                    "groupName": "VOV - Bandgeschwindigkeit im Gluehofen"
                 },
                 {
                     "attributes": [
@@ -2136,7 +2136,7 @@
                             "attributeName": "vox_sperrkz"
                         }
                     ],
-                    "groupName": "vox"
+                    "groupName": "VOX - Fehlermeldung: Bandtemperatur"
                 },
                 {
                     "attributes": [
@@ -2153,7 +2153,7 @@
                             "attributeName": "vvk_sperrkz"
                         }
                     ],
-                    "groupName": "vvk"
+                    "groupName": "VVK - Zinkbadrollenkratzer"
                 },
                 {
                     "attributes": [
@@ -2170,7 +2170,7 @@
                             "attributeName": "vvl_sperrkz"
                         }
                     ],
-                    "groupName": "vvl"
+                    "groupName": "VVL - Zinkerstarrungslinien"
                 },
                 {
                     "attributes": [
@@ -2187,7 +2187,7 @@
                             "attributeName": "vvm_sperrkz"
                         }
                     ],
-                    "groupName": "vvm"
+                    "groupName": "VVM - falsches Abstreifmedium"
                 },
                 {
                     "attributes": [
@@ -2204,7 +2204,7 @@
                             "attributeName": "vvu_sperrkz"
                         }
                     ],
-                    "groupName": "vvu"
+                    "groupName": "VVU - Badrollenablösung"
                 },
                 {
                     "attributes": [
@@ -2221,7 +2221,7 @@
                             "attributeName": "vvw_sperrkz"
                         }
                     ],
-                    "groupName": "vvw"
+                    "groupName": "VVW - Wolken"
                 },
                 {
                     "attributes": [
@@ -2238,7 +2238,7 @@
                             "attributeName": "vwr_sperrkz"
                         }
                     ],
-                    "groupName": "vwr"
+                    "groupName": "VWR - Weissrost"
                 },
                 {
                     "attributes": [
@@ -2255,7 +2255,7 @@
                             "attributeName": "vze_sperrkz"
                         }
                     ],
-                    "groupName": "vze"
+                    "groupName": "VZE - Badrolleneindruecke"
                 },
                 {
                     "attributes": [
@@ -2272,7 +2272,7 @@
                             "attributeName": "vzf_sperrkz"
                         }
                     ],
-                    "groupName": "vzf"
+                    "groupName": "VZF - FeZn-Schicht durchgewachsen"
                 },
                 {
                     "attributes": [
@@ -2289,7 +2289,7 @@
                             "attributeName": "vzg_sperrkz"
                         }
                     ],
-                    "groupName": "vzg"
+                    "groupName": "VZG - Zinkgriess"
                 },
                 {
                     "attributes": [
@@ -2306,7 +2306,7 @@
                             "attributeName": "vzk_sperrkz"
                         }
                     ],
-                    "groupName": "vzk"
+                    "groupName": "VZK - Kantenzink"
                 },
                 {
                     "attributes": [
@@ -2323,7 +2323,7 @@
                             "attributeName": "vzl_sperrkz"
                         }
                     ],
-                    "groupName": "vzl"
+                    "groupName": "VZL - Zinkschicht abgerissen"
                 },
                 {
                     "attributes": [
@@ -2340,7 +2340,7 @@
                             "attributeName": "vzm_sperrkz"
                         }
                     ],
-                    "groupName": "vzm"
+                    "groupName": "VZM - Graetenmuster"
                 },
                 {
                     "attributes": [
@@ -2357,7 +2357,7 @@
                             "attributeName": "vzr_sperrkz"
                         }
                     ],
-                    "groupName": "vzr"
+                    "groupName": "VZR - Randaufwachsungen"
                 },
                 {
                     "attributes": [
@@ -2374,7 +2374,7 @@
                             "attributeName": "vzs_sperrkz"
                         }
                     ],
-                    "groupName": "vzs"
+                    "groupName": "VZS - Badrollenstreifen"
                 },
                 {
                     "attributes": [
@@ -2391,7 +2391,7 @@
                             "attributeName": "vzt_sperrkz"
                         }
                     ],
-                    "groupName": "vzt"
+                    "groupName": "VZT - Ruesselstreifen"
                 },
                 {
                     "attributes": [
@@ -2408,7 +2408,7 @@
                             "attributeName": "vzw_sperrkz"
                         }
                     ],
-                    "groupName": "vzw"
+                    "groupName": "VZW - Duesenwischer"
                 }
             ],
             "radioName": "Inspektion",
@@ -2443,7 +2443,7 @@
                             "attributeName": "count_bf_us"
                         }
                     ],
-                    "groupName": "bf"
+                    "groupName": "BF - BF"
                 },
                 {
                     "attributes": [
@@ -2472,7 +2472,7 @@
                             "attributeName": "count_vms_us"
                         }
                     ],
-                    "groupName": "vms"
+                    "groupName": "VMS - VMS"
                 },
                 {
                     "attributes": [
@@ -2501,7 +2501,7 @@
                             "attributeName": "count_vmc_us"
                         }
                     ],
-                    "groupName": "vmc"
+                    "groupName": "VMC - VMC"
                 },
                 {
                     "attributes": [
@@ -2530,7 +2530,7 @@
                             "attributeName": "count_vzc_us"
                         }
                     ],
-                    "groupName": "vzc"
+                    "groupName": "VZC - VZC"
                 },
                 {
                     "attributes": [
@@ -2559,7 +2559,7 @@
                             "attributeName": "count_rund_us"
                         }
                     ],
-                    "groupName": "rund"
+                    "groupName": "RUND - rund"
                 },
                 {
                     "attributes": [
@@ -2588,7 +2588,7 @@
                             "attributeName": "count_zinkerst_us"
                         }
                     ],
-                    "groupName": "zinkerst"
+                    "groupName": "ZINKERST - Zinkerst"
                 },
                 {
                     "attributes": [
@@ -2617,7 +2617,7 @@
                             "attributeName": "count_schmutzst_us"
                         }
                     ],
-                    "groupName": "schmutzst"
+                    "groupName": "SCHMUTZST - Schmutzst"
                 },
                 {
                     "attributes": [
@@ -2646,7 +2646,7 @@
                             "attributeName": "count_lox_contr_us"
                         }
                     ],
-                    "groupName": "lox_contr"
+                    "groupName": "LOX_CONTR - Lox Contr"
                 },
                 {
                     "attributes": [
@@ -2675,7 +2675,7 @@
                             "attributeName": "count_vmb_us"
                         }
                     ],
-                    "groupName": "vmb"
+                    "groupName": "VMB - VMB"
                 },
                 {
                     "attributes": [
@@ -2704,7 +2704,7 @@
                             "attributeName": "count_diagonal_us"
                         }
                     ],
-                    "groupName": "diagonal"
+                    "groupName": "DIAGONAL - Diagonal"
                 },
                 {
                     "attributes": [
@@ -2733,7 +2733,7 @@
                             "attributeName": "count_vmf_us"
                         }
                     ],
-                    "groupName": "vmf"
+                    "groupName": "VMF - VMF"
                 },
                 {
                     "attributes": [
@@ -2762,7 +2762,7 @@
                             "attributeName": "count_df_bright_us"
                         }
                     ],
-                    "groupName": "df_bright"
+                    "groupName": "DF_BRIGHT - DF Bright"
                 },
                 {
                     "attributes": [
