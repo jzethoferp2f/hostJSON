@@ -5,36 +5,19 @@
                 {
                     "attributes": [
                         {
-                            "legendName": "OF.Analysen Taupunkt Ruessel kapazitiv [°C]",
-                            "attributeName": "rus_tauk"
-                        },
-                        {
-                            "legendName": "RTS.Analysen Taupunkt RTS fix [°C]",
-                            "attributeName": "rts_tau"
-                        },
-                        {
-                            "legendName": "OF.Analysen Taupunkt Ruessel Spiegelmessung [°C]",
-                            "attributeName": "rus_taus"
-                        }
-                    ],
-                    "groupName": "Taupunkte"
-                },
-                {
-                    "attributes": [
-                        {
                             "legendName": "KT.Kuehler M3 Leistung [1]",
                             "attributeName": "fvz_m3"
                         },
                         {
-                            "legendName": "M1.KT. Kuehler M1 Leistung [%]",
-                            "attributeName": "fvz_m1"
-                        },
-                        {
                             "legendName": "KT.Kuehler M2 Leistung [1]",
                             "attributeName": "fvz_m2"
+                        },
+                        {
+                            "legendName": "M1.KT. Kuehler M1 Leistung [%]",
+                            "attributeName": "fvz_m1"
                         }
                     ],
-                    "groupName": "Kühler"
+                    "groupName": "Kühler [%] | [1]"
                 },
                 {
                     "attributes": [
@@ -47,7 +30,513 @@
                             "attributeName": "verzsdi2"
                         }
                     ],
-                    "groupName": "Auflage"
+                    "groupName": "Auflage [g/m²]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DRES.Dressiergrad [%]",
+                            "attributeName": "dresgrad"
+                        },
+                        {
+                            "legendName": "BSR.Streckgrad [%]",
+                            "attributeName": "streckgd"
+                        }
+                    ],
+                    "groupName": "Dressiergerüst Verformung [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "KT.Kuehler S2 Gastemperatur [°C]",
+                            "attributeName": "fvzs2tmp"
+                        }
+                    ],
+                    "groupName": "Kühlturm Lufttemperatur oben [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Abstreifmedium Duese OS 1=Luft 2 = N2 [1]",
+                            "attributeName": "verzmed1"
+                        },
+                        {
+                            "legendName": "DUES.Abstreifmedium Duese US 1=Luft 2 = N3 [1]",
+                            "attributeName": "verzmed2"
+                        }
+                    ],
+                    "groupName": "Abstreifmedium [1=Luft 2 = N2]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "AUSLAUFDICKE [mm]",
+                            "attributeName": "dicke_g5"
+                        }
+                    ],
+                    "groupName": "dicke_g5 - Auslaufdicke [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Dim_Auslaufgeschwindigkeit F6 [M/S]",
+                            "attributeName": "fs_v1c"
+                        }
+                    ],
+                    "groupName": "fs_v1c - Dim_Auslaufgeschwindigkeit F6 [M/S]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "FS_Gesamt_Wassermenge [m3/h]",
+                            "attributeName": "f0_q1c4"
+                        }
+                    ],
+                    "groupName": "f0_q1c4 - FS_Gesamt_Wassermenge [m3/h]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Temp_WET_Walzendtemperatur [GRAD C]",
+                            "attributeName": "mewe_et"
+                        }
+                    ],
+                    "groupName": "mewe_et - Temp_WET_Walzendtemperatur [GRAD C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Temp_vorstreifen [GRAD C]",
+                            "attributeName": "vorstemp"
+                        }
+                    ],
+                    "groupName": "vorstemp - Temp_vorstreifen [GRAD C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Beizzeit [s]",
+                            "attributeName": "beizzeit"
+                        }
+                    ],
+                    "groupName": "beizzeit - Beizzeit [s]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Bandgeschwindigkeit G5 [m/min]",
+                            "attributeName": "v_bandg5"
+                        }
+                    ],
+                    "groupName": "v_bandg5 - Bandgeschwindigkeit G5 [m/min]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "EM-Punkt-Wert OS-A [1]",
+                            "attributeName": "em_os_a"
+                        }
+                    ],
+                    "groupName": "em_os_a - EM-Punkt-Wert OS-A [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "EM-Punkt-Wert US-A [1]",
+                            "attributeName": "em_us_a"
+                        }
+                    ],
+                    "groupName": "em_us_a - EM-Punkt-Wert US-A [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "BANDGESCHWINDIGKEIT BEIZE [m/min]",
+                            "attributeName": "beizgeschwindigkeit"
+                        }
+                    ],
+                    "groupName": "Beizgeschwindigkeit [m/min]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Voreilung G2 [%]",
+                            "attributeName": "voreilg2"
+                        }
+                    ],
+                    "groupName": "voreilg2 - Voreilung G2 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "PickleTempTank4 - Temporary! [oC]",
+                            "attributeName": "temp_beizmedium"
+                        }
+                    ],
+                    "groupName": "temp_beizmedium - PickleTempTank4 - Temporary! [oC]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "PickleTempTank4 [oC]",
+                            "attributeName": "temp_beizmedium"
+                        }
+                    ],
+                    "groupName": "temp_beizmedium - PickleTempTank4 [oC]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "TEMPERATUR WAERMETAUSCHER 2 [°C]",
+                            "attributeName": "temp_beizmedium"
+                        }
+                    ],
+                    "groupName": "temp_beizmedium - TEMPERATUR WAERMETAUSCHER 2 [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "VOREILUNG GERUEST 3 [%]",
+                            "attributeName": "voreilg3"
+                        }
+                    ],
+                    "groupName": "voreilg3 - VOREILUNG GERUEST 3 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "WALZKRAFT GERUEST 2 [MN]",
+                            "attributeName": "f_walzg2"
+                        }
+                    ],
+                    "groupName": "f_walzg2 - WALZKRAFT GERUEST 2 [MN]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "WALZKRAFT GERUEST 3 [MN]",
+                            "attributeName": "f_walzg3"
+                        }
+                    ],
+                    "groupName": "f_walzg3 - WALZKRAFT GERUEST 3 [MN]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DURCHLAUFZEIT DURCH BEIZE [s]",
+                            "attributeName": "beizzeit"
+                        }
+                    ],
+                    "groupName": "beizzeit - DURCHLAUFZEIT DURCH BEIZE [s]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "INHIBITORKONZENTRATION (BERECHNET) []",
+                            "attributeName": "inhikonz"
+                        }
+                    ],
+                    "groupName": "inhikonz - INHIBITORKONZENTRATION (BERECHNET) []"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Temp_HAT_Haspeltemperatur [GRAD C]",
+                            "attributeName": "mewe_ht"
+                        }
+                    ],
+                    "groupName": "mewe_ht - Temp_HAT_Haspeltemperatur [GRAD C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Spaltbreite OS BS [mm]",
+                            "attributeName": "due_sbob"
+                        }
+                    ],
+                    "groupName": "due_sbob - DUES.Spaltbreite OS BS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Spaltbreite US AS [mm]",
+                            "attributeName": "due_sbua"
+                        }
+                    ],
+                    "groupName": "due_sbua - DUES.Spaltbreite US AS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Spaltbreite US BS [mm]",
+                            "attributeName": "due_sbub"
+                        }
+                    ],
+                    "groupName": "due_sbub - DUES.Spaltbreite US BS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Duesenspalt OS [mm]",
+                            "attributeName": "due_sos"
+                        }
+                    ],
+                    "groupName": "due_sos - DUES.Duesenspalt OS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Duesenspalt US [mm]",
+                            "attributeName": "due_sus"
+                        }
+                    ],
+                    "groupName": "due_sus - DUES.Duesenspalt US [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Abblasemedium Temperatur IW OS [°C]",
+                            "attributeName": "due_teos"
+                        }
+                    ],
+                    "groupName": "due_teos - DUES.Abblasemedium Temperatur IW OS [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Abblasemedium Temperatur IW US [°C]",
+                            "attributeName": "due_teus"
+                        }
+                    ],
+                    "groupName": "due_teus - DUES.Abblasemedium Temperatur IW US [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Vordruck Luft [mbar]",
+                            "attributeName": "due_vdl"
+                        }
+                    ],
+                    "groupName": "due_vdl - DUES.Vordruck Luft [mbar]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DRES.Bandgeschwindigkeit vor DG [m/min]",
+                            "attributeName": "fvz_v"
+                        }
+                    ],
+                    "groupName": "Bandgeschwindigkeit [m/min]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "ZIPO.ZM-Bad Temperatur AS [°C]",
+                            "attributeName": "fvz2zmbd"
+                        },
+                        {
+                            "legendName": "RUES.Zone 15 Ruessel Bandtemp. [°C]",
+                            "attributeName": "fvz2rues"
+                        }
+                    ],
+                    "groupName": "Zinkbad [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "ZBME.Bodenrolle Stellung BS [mm]",
+                            "attributeName": "br_s"
+                        }
+                    ],
+                    "groupName": "br_s - ZBME.Bodenrolle Stellung BS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "ZBME.Bodenrolle Geschwindigkeit [m/min]",
+                            "attributeName": "br_v"
+                        }
+                    ],
+                    "groupName": "br_v - ZBME.Bodenrolle Geschwindigkeit [m/min]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "ZBME.Bodenrolle Differenzgeschwindigkeit [1]",
+                            "attributeName": "br_vdiff"
+                        }
+                    ],
+                    "groupName": "br_vdiff - ZBME.Bodenrolle Differenzgeschwindigkeit [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Abstand Duese - Bad Vertikalstellung BS [mm]",
+                            "attributeName": "due_abs"
+                        }
+                    ],
+                    "groupName": "due_abs - DUES.Abstand Duese - Bad Vertikalstellung BS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Drehzahl Geblaese 1 [%]",
+                            "attributeName": "due_g1"
+                        }
+                    ],
+                    "groupName": "due_g1 - DUES.Drehzahl Geblaese 1 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Drehzahl Geblaese 2 [%]",
+                            "attributeName": "due_g2"
+                        }
+                    ],
+                    "groupName": "due_g2 - DUES.Drehzahl Geblaese 2 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "ZBME.Korrekturrolle Stellung BS [mm]",
+                            "attributeName": "kr_sa"
+                        }
+                    ],
+                    "groupName": "kr_sa - ZBME.Korrekturrolle Stellung BS [mm]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "OF.Analysen Taupunkt Ruessel kapazitiv [°C]",
+                            "attributeName": "rus_tauk"
+                        },
+                        {
+                            "legendName": "OF.Analysen Taupunkt Ruessel Spiegelmessung [°C]",
+                            "attributeName": "rus_taus"
+                        },
+                        {
+                            "legendName": "RTS.Analysen Taupunkt RTS fix [°C]",
+                            "attributeName": "rts_tau"
+                        }
+                    ],
+                    "groupName": "Taupunkte [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Bandtemperatur nach Induktor Pyrometer 2 [°C]",
+                            "attributeName": "tempind2"
+                        }
+                    ],
+                    "groupName": "tempind2 - Bandtemperatur nach Induktor Pyrometer 2 [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "VOREILUNG GERUEST 2 [%]",
+                            "attributeName": "voreilg2"
+                        }
+                    ],
+                    "groupName": "voreilg2 - VOREILUNG GERUEST 2 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Walzkraft G2 [MN]",
+                            "attributeName": "f_walzg2"
+                        }
+                    ],
+                    "groupName": "f_walzg2 - Walzkraft G2 [MN]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Voreilung G3 [%]",
+                            "attributeName": "voreilg3"
+                        }
+                    ],
+                    "groupName": "voreilg3 - Voreilung G3 [%]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Walzkraft G3 [MN]",
+                            "attributeName": "f_walzg3"
+                        }
+                    ],
+                    "groupName": "f_walzg3 - Walzkraft G3 [MN]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "BANDGESCHWINDIGKEIT NACH GERUEST 5 [m/min]",
+                            "attributeName": "v_bandg5"
+                        }
+                    ],
+                    "groupName": "v_bandg5 - BANDGESCHWINDIGKEIT NACH GERUEST 5 [m/min]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Vordruck Luft Temperatur [°C]",
+                            "attributeName": "due_lute"
+                        }
+                    ],
+                    "groupName": "due_lute - DUES.Vordruck Luft Temperatur [°C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Vordruck N2 US [mbar]",
+                            "attributeName": "due_vdnu"
+                        }
+                    ],
+                    "groupName": "due_vdnu - DUES.Vordruck N2 OS [mbar]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Duesenneigung OS [°]",
+                            "attributeName": "due_nos"
+                        }
+                    ],
+                    "groupName": "due_nos - DUES.Duesenneigung OS [°]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Duesennummer eingebaut OS [1]",
+                            "attributeName": "due_nros"
+                        }
+                    ],
+                    "groupName": "due_nros - DUES.Duesennummer eingebaut OS [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "DUES.Duesennummer eingebaut US [1]",
+                            "attributeName": "due_nrus"
+                        }
+                    ],
+                    "groupName": "due_nrus - DUES.Duesennummer eingebaut US [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Temp_nach Geruest F1 [GRAD C]",
+                            "attributeName": "f1_t5c"
+                        }
+                    ],
+                    "groupName": "f1_t5c - Temp_nach Geruest F1 [GRAD C]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Temp_Schopfschere_Oberseite [GRAD C]",
+                            "attributeName": "sch_to1c"
+                        }
+                    ],
+                    "groupName": "sch_to1c - Temp_Schopfschere_Oberseite [GRAD C]"
                 },
                 {
                     "attributes": [
@@ -64,29 +553,7 @@
                             "attributeName": "z13_tx"
                         }
                     ],
-                    "groupName": "Temperaturen Gasjet"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DRES.Dressiergrad [%]",
-                            "attributeName": "dresgrad"
-                        },
-                        {
-                            "legendName": "BSR.Streckgrad [%]",
-                            "attributeName": "streckgd"
-                        }
-                    ],
-                    "groupName": "Dressiergrad"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "KT.Kuehler S2 Gastemperatur [°C]",
-                            "attributeName": "fvzs2tmp"
-                        }
-                    ],
-                    "groupName": "Kühlturm Lufttemperatur oben"
+                    "groupName": "Temperaturen Gasjet [°C]"
                 },
                 {
                     "attributes": [
@@ -95,15 +562,15 @@
                             "attributeName": "kt_t_m3"
                         },
                         {
-                            "legendName": "KT.Bandtemperatur 2 nach K2 T61652 [°C]",
-                            "attributeName": "kt_t2_k2"
-                        },
-                        {
                             "legendName": "KT.Bandtemperatur 1 vor K1 T61631 [°C]",
                             "attributeName": "kt_t1_k1"
+                        },
+                        {
+                            "legendName": "KT.Bandtemperatur 2 nach K2 T61652 [°C]",
+                            "attributeName": "kt_t2_k2"
                         }
                     ],
-                    "groupName": "Kühlturm Bandtemperatur"
+                    "groupName": "Kühlturm Bandtemperatur [°C]"
                 },
                 {
                     "attributes": [
@@ -120,254 +587,49 @@
                             "attributeName": "pottniv"
                         }
                     ],
-                    "groupName": "Badoberfläche"
+                    "groupName": "Badoberfläche [%] | [mm]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "DUES.Vordruck N2 US [mbar]",
-                            "attributeName": "due_vdno"
-                        }
-                    ],
-                    "groupName": "due_vdno"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DRES.Bandgeschwindigkeit vor DG [m/min]",
-                            "attributeName": "fvz_v"
-                        }
-                    ],
-                    "groupName": "Bandgeschwindigkeit"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "ZIPO.ZM-Bad Temperatur AS [°C]",
-                            "attributeName": "fvz2zmbd"
+                            "legendName": "DUES.Horizontalverstellung Pos.3 US/AS [%]",
+                            "attributeName": "due_st3"
                         },
                         {
-                            "legendName": "RUES.Zone 15 Ruessel Bandtemp. [°C]",
-                            "attributeName": "fvz2rues"
+                            "legendName": "DUES.Horizontalverstellung Pos.4 OS/AS [%]",
+                            "attributeName": "due_st4"
+                        },
+                        {
+                            "legendName": "DUES.Horizontalverstellung Pos.1 OS/BS [%]",
+                            "attributeName": "due_st1"
+                        },
+                        {
+                            "legendName": "DUES.Horizontalverstellung Pos.2 US/BS [%]",
+                            "attributeName": "due_st2"
                         }
                     ],
-                    "groupName": "Zinkbad"
+                    "groupName": "Düsenposition [%]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "ZBME.Bodenrolle Stellung BS [mm]",
-                            "attributeName": "br_s"
-                        }
-                    ],
-                    "groupName": "br_s"
-                },
-                {
-                    "attributes": [
+                            "legendName": "RTS.Zone 8b Bandtemp.IW [°C]",
+                            "attributeName": "fvz2_hz8"
+                        },
                         {
-                            "legendName": "ZBME.Bodenrolle Geschwindigkeit [m/min]",
-                            "attributeName": "br_v"
-                        }
-                    ],
-                    "groupName": "br_v"
-                },
-                {
-                    "attributes": [
+                            "legendName": "OF.Transfer 1 Bandtemp.Messung 1X [°C]",
+                            "attributeName": "fvz2vdff"
+                        },
                         {
-                            "legendName": "ZBME.Bodenrolle Differenzgeschwindigkeit [1]",
-                            "attributeName": "br_vdiff"
-                        }
-                    ],
-                    "groupName": "br_vdiff"
-                },
-                {
-                    "attributes": [
+                            "legendName": "RTH.Zone 7 Bandtemp.IW [°C]",
+                            "attributeName": "fvz2_glo"
+                        },
                         {
-                            "legendName": "DUES.Abstand Duese - Bad Vertikalstellung BS [mm]",
-                            "attributeName": "due_abs"
+                            "legendName": "OF.Transfer 1 Bandtemp.Messung 2 [°C]",
+                            "attributeName": "tr1_t2x"
                         }
                     ],
-                    "groupName": "due_abs"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Drehzahl Geblaese 1 [%]",
-                            "attributeName": "due_g1"
-                        }
-                    ],
-                    "groupName": "due_g1"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Drehzahl Geblaese 2 [%]",
-                            "attributeName": "due_g2"
-                        }
-                    ],
-                    "groupName": "due_g2"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Vordruck Luft Temperatur [°C]",
-                            "attributeName": "due_lute"
-                        }
-                    ],
-                    "groupName": "due_lute"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.DueseDurchfluss N2 [Nm³/h]",
-                            "attributeName": "due_n2"
-                        }
-                    ],
-                    "groupName": "due_n2"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesenneigung OS [°]",
-                            "attributeName": "due_nos"
-                        }
-                    ],
-                    "groupName": "due_nos"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesennummer eingebaut OS [1]",
-                            "attributeName": "due_nros"
-                        }
-                    ],
-                    "groupName": "due_nros"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesennummer eingebaut US [1]",
-                            "attributeName": "due_nrus"
-                        }
-                    ],
-                    "groupName": "due_nrus"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesenneigung US [°]",
-                            "attributeName": "due_nus"
-                        }
-                    ],
-                    "groupName": "due_nus"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Radialregler Stellung OS [%]",
-                            "attributeName": "due_rros"
-                        }
-                    ],
-                    "groupName": "due_rros"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Radialregler Stellung US [%]",
-                            "attributeName": "due_rrus"
-                        }
-                    ],
-                    "groupName": "due_rrus"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Spaltbreite OS AS [mm]",
-                            "attributeName": "due_sboa"
-                        }
-                    ],
-                    "groupName": "due_sboa"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Spaltbreite OS BS [mm]",
-                            "attributeName": "due_sbob"
-                        }
-                    ],
-                    "groupName": "due_sbob"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Spaltbreite US AS [mm]",
-                            "attributeName": "due_sbua"
-                        }
-                    ],
-                    "groupName": "due_sbua"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Spaltbreite US BS [mm]",
-                            "attributeName": "due_sbub"
-                        }
-                    ],
-                    "groupName": "due_sbub"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesenspalt OS [mm]",
-                            "attributeName": "due_sos"
-                        }
-                    ],
-                    "groupName": "due_sos"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Duesenspalt US [mm]",
-                            "attributeName": "due_sus"
-                        }
-                    ],
-                    "groupName": "due_sus"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Abblasemedium Temperatur IW OS [°C]",
-                            "attributeName": "due_teos"
-                        }
-                    ],
-                    "groupName": "due_teos"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Abblasemedium Temperatur IW US [°C]",
-                            "attributeName": "due_teus"
-                        }
-                    ],
-                    "groupName": "due_teus"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Vordruck Luft [mbar]",
-                            "attributeName": "due_vdl"
-                        }
-                    ],
-                    "groupName": "due_vdl"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Vordruck N2 OS [mbar]",
-                            "attributeName": "due_vdnu"
-                        }
-                    ],
-                    "groupName": "due_vdnu"
+                    "groupName": "Temperaturen Ofen [°C]"
                 },
                 {
                     "attributes": [
@@ -376,7 +638,7 @@
                             "attributeName": "em_blv"
                         }
                     ],
-                    "groupName": "em_blv"
+                    "groupName": "em_blv - VZ.eMASS Blockverstellung Status (1=Anforderung, 2=Aktiv) [1]"
                 },
                 {
                     "attributes": [
@@ -385,7 +647,7 @@
                             "attributeName": "em_flau"
                         }
                     ],
-                    "groupName": "em_flau"
+                    "groupName": "em_flau - VZ.eMASS Fluchtautomatik Status (1=Vorwarnung, 2=Flucht) [1]"
                 },
                 {
                     "attributes": [
@@ -394,7 +656,7 @@
                             "attributeName": "em_stat"
                         }
                     ],
-                    "groupName": "em_stat"
+                    "groupName": "em_stat - VZ.eMASS Status (0=Aus, 1= Betriebsbereit, 2= Aktiv) [1]"
                 },
                 {
                     "attributes": [
@@ -403,7 +665,7 @@
                             "attributeName": "em_statb"
                         }
                     ],
-                    "groupName": "em_statb"
+                    "groupName": "em_statb - VZ.eMASS Status Bandausrichtung (0=Aus, 1=gefunden, 2=ausgerichtet, 3=Arbeitspos, 4=aktiv) [1]"
                 },
                 {
                     "attributes": [
@@ -412,7 +674,7 @@
                             "attributeName": "emapl4"
                         }
                     ],
-                    "groupName": "emapl4"
+                    "groupName": "emapl4 - VZ.eMASS Bandschwingungsamplitude 4Hz [mm]"
                 },
                 {
                     "attributes": [
@@ -421,7 +683,7 @@
                             "attributeName": "emaplk"
                         }
                     ],
-                    "groupName": "emaplk"
+                    "groupName": "emaplk - VZ.eMASS Bandschwingungsamplitude Korrekturrollenfrequenz [mm]"
                 },
                 {
                     "attributes": [
@@ -430,7 +692,7 @@
                             "attributeName": "emapls"
                         }
                     ],
-                    "groupName": "emapls"
+                    "groupName": "emapls - VZ.eMASS Bandschwingungsamplitude Stabirollenfrequenz [mm]"
                 },
                 {
                     "attributes": [
@@ -439,7 +701,7 @@
                             "attributeName": "emcomakt"
                         }
                     ],
-                    "groupName": "emcomakt"
+                    "groupName": "emcomakt - VZ.eMASS Schwingungskompensation ist aktiv [1]"
                 },
                 {
                     "attributes": [
@@ -448,7 +710,7 @@
                             "attributeName": "emcro"
                         }
                     ],
-                    "groupName": "emcro"
+                    "groupName": "emcro - VZ.eMASS Zinkschicht CrossBowSchaetzer [1]"
                 },
                 {
                     "attributes": [
@@ -457,7 +719,16 @@
                             "attributeName": "emcroakt"
                         }
                     ],
-                    "groupName": "emcroakt"
+                    "groupName": "emcroakt - VZ.eMASS Korrekturrollen Autopositionierung ist aktiv [1]"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "AL.Dicke Auslauf [mm]",
+                            "attributeName": "dicke"
+                        }
+                    ],
+                    "groupName": "Banddicke [mm]"
                 },
                 {
                     "attributes": [
@@ -466,16 +737,7 @@
                             "attributeName": "emzqu"
                         }
                     ],
-                    "groupName": "emzqu"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "ZBME.Korrekturrolle Stellung BS [mm]",
-                            "attributeName": "kr_sa"
-                        }
-                    ],
-                    "groupName": "kr_sa"
+                    "groupName": "emzqu - VZ.eMASS Zinkschicht Querprofilguete [1]"
                 },
                 {
                     "attributes": [
@@ -484,7 +746,7 @@
                             "attributeName": "kr_sb"
                         }
                     ],
-                    "groupName": "kr_sb"
+                    "groupName": "kr_sb - ZBME.Korrekturrolle Stellung AS [mm]"
                 },
                 {
                     "attributes": [
@@ -493,7 +755,7 @@
                             "attributeName": "kr_v"
                         }
                     ],
-                    "groupName": "kr_v"
+                    "groupName": "kr_v - ZBME.Korrekturrrolle Geschwindigkeit [m/min]"
                 },
                 {
                     "attributes": [
@@ -502,7 +764,7 @@
                             "attributeName": "kr_vdiff"
                         }
                     ],
-                    "groupName": "kr_vdiff"
+                    "groupName": "kr_vdiff - ZBME.Korrekturrrolle Differenzgeschwindigkeit [1]"
                 },
                 {
                     "attributes": [
@@ -511,7 +773,7 @@
                             "attributeName": "sakt_zug"
                         }
                     ],
-                    "groupName": "sakt_zug"
+                    "groupName": "sakt_zug - KT.  Bandzug ZKT R3330 AS  spezifisch gerechneter Wert [N/mm²]"
                 },
                 {
                     "attributes": [
@@ -520,7 +782,7 @@
                             "attributeName": "sbkt_zug"
                         }
                     ],
-                    "groupName": "sbkt_zug"
+                    "groupName": "sbkt_zug - KT.  Bandzug ZKT R3330 BS  spezifisch gerechneter Wert [N/mm²]"
                 },
                 {
                     "attributes": [
@@ -529,7 +791,7 @@
                             "attributeName": "skt_zug"
                         }
                     ],
-                    "groupName": "skt_zug"
+                    "groupName": "skt_zug - KT.  Bandzug ZKT R3330 spezifisch gerechneter Wert [N/mm²]"
                 },
                 {
                     "attributes": [
@@ -538,7 +800,7 @@
                             "attributeName": "sr_mod"
                         }
                     ],
-                    "groupName": "sr_mod"
+                    "groupName": "sr_mod - BSR.Aktiver Modus 0..STR-Aus 1..STR-Reg 2..konst.Zug 3..Min-Zug [1]"
                 },
                 {
                     "attributes": [
@@ -547,7 +809,7 @@
                             "attributeName": "sr_saas"
                         }
                     ],
-                    "groupName": "sr_saas"
+                    "groupName": "sr_saas - ZBME.Stabirolle Stellung AS [mm]"
                 },
                 {
                     "attributes": [
@@ -556,7 +818,7 @@
                             "attributeName": "sr_sab"
                         }
                     ],
-                    "groupName": "sr_sab"
+                    "groupName": "sr_sab - ZBME.Hoehe Stabirollenoberkante zu Zinkniveau [mm]"
                 },
                 {
                     "attributes": [
@@ -565,7 +827,7 @@
                             "attributeName": "sr_sabs"
                         }
                     ],
-                    "groupName": "sr_sabs"
+                    "groupName": "sr_sabs - ZBME.Stabirolle Stellung BS [mm]"
                 },
                 {
                     "attributes": [
@@ -574,7 +836,7 @@
                             "attributeName": "sr_v"
                         }
                     ],
-                    "groupName": "sr_v"
+                    "groupName": "sr_v - ZBME.Stabirolle Geschwindigkeit [m/min]"
                 },
                 {
                     "attributes": [
@@ -583,229 +845,70 @@
                             "attributeName": "sr_vdiff"
                         }
                     ],
-                    "groupName": "sr_vdiff"
+                    "groupName": "sr_vdiff - ZBME.Stabirolle Differenzgeschwindigkeit [1]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "DUES.Abstreifmedium Duese OS 1=Luft 2 = N2 [1]",
-                            "attributeName": "verzmed1"
+                            "legendName": "DUES.DueseDurchfluss N2 [Nm³/h]",
+                            "attributeName": "due_n2"
                         }
                     ],
-                    "groupName": "verzmed1"
+                    "groupName": "due_n2 - DUES.DueseDurchfluss N2 [Nm³/h]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "DUES.Abstreifmedium Duese US 1=Luft 2 = N3 [1]",
-                            "attributeName": "verzmed2"
+                            "legendName": "DUES.Duesenneigung US [°]",
+                            "attributeName": "due_nus"
                         }
                     ],
-                    "groupName": "verzmed2"
+                    "groupName": "due_nus - DUES.Duesenneigung US [°]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "Dim_Auslaufgeschwindigkeit F6 [M/S]",
-                            "attributeName": "fs_v1c"
+                            "legendName": "DUES.Vordruck N2 OS [mbar]",
+                            "attributeName": "due_vdno"
                         }
                     ],
-                    "groupName": "fs_v1c"
+                    "groupName": "due_vdno - DUES.Vordruck N2 US [mbar]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "FS_Gesamt_Wassermenge [m3/h]",
-                            "attributeName": "f0_q1c4"
+                            "legendName": "DUES.Radialregler Stellung OS [%]",
+                            "attributeName": "due_rros"
                         }
                     ],
-                    "groupName": "f0_q1c4"
+                    "groupName": "due_rros - DUES.Radialregler Stellung OS [%]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "Temp_WET_Walzendtemperatur [GRAD C]",
-                            "attributeName": "mewe_et"
+                            "legendName": "DUES.Radialregler Stellung US [%]",
+                            "attributeName": "due_rrus"
                         }
                     ],
-                    "groupName": "mewe_et"
+                    "groupName": "due_rrus - DUES.Radialregler Stellung US [%]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "Temp_vorstreifen [GRAD C]",
-                            "attributeName": "vorstemp"
+                            "legendName": "DUES.Spaltbreite OS AS [mm]",
+                            "attributeName": "due_sboa"
                         }
                     ],
-                    "groupName": "vorstemp"
+                    "groupName": "due_sboa - DUES.Spaltbreite OS AS [mm]"
                 },
                 {
                     "attributes": [
                         {
-                            "legendName": "Beizzeit [s]",
-                            "attributeName": "beizzeit"
+                            "legendName": "Temp_Schopfschere_Unterseite [GRAD C]",
+                            "attributeName": "sch_tu1c"
                         }
                     ],
-                    "groupName": "beizzeit"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Bandgeschwindigkeit G5 [m/min]",
-                            "attributeName": "v_bandg5"
-                        }
-                    ],
-                    "groupName": "v_bandg5"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "AUSLAUFDICKE [mm]",
-                            "attributeName": "dicke_g5"
-                        }
-                    ],
-                    "groupName": "dicke_g5"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "EM-Punkt-Wert OS-A [1]",
-                            "attributeName": "em_os_a"
-                        }
-                    ],
-                    "groupName": "em_os_a"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "EM-Punkt-Wert US-A [1]",
-                            "attributeName": "em_us_a"
-                        }
-                    ],
-                    "groupName": "em_us_a"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Bandtemperatur nach Induktor Pyrometer 2 [°C]",
-                            "attributeName": "tempind2"
-                        }
-                    ],
-                    "groupName": "tempind2"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "VOREILUNG GERUEST 2 [%]",
-                            "attributeName": "voreilg2"
-                        }
-                    ],
-                    "groupName": "voreilg2"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Walzkraft G2 [MN]",
-                            "attributeName": "f_walzg2"
-                        }
-                    ],
-                    "groupName": "f_walzg2"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Voreilung G3 [%]",
-                            "attributeName": "voreilg3"
-                        }
-                    ],
-                    "groupName": "voreilg3"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Walzkraft G3 [MN]",
-                            "attributeName": "f_walzg3"
-                        }
-                    ],
-                    "groupName": "f_walzg3"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "BANDGESCHWINDIGKEIT BEIZE [m/min]",
-                            "attributeName": "beizgeschwindigkeit"
-                        }
-                    ],
-                    "groupName": "beizgeschwindigkeit"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "PickleTempTank4 - Temporary! [oC]",
-                            "attributeName": "temp_beizmedium"
-                        }
-                    ],
-                    "groupName": "temp_beizmedium"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "INHIBITORKONZENTRATION (BERECHNET) []",
-                            "attributeName": "inhikonz"
-                        }
-                    ],
-                    "groupName": "inhikonz"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Temp_HAT_Haspeltemperatur [GRAD C]",
-                            "attributeName": "mewe_ht"
-                        }
-                    ],
-                    "groupName": "mewe_ht"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "DUES.Horizontalverstellung Pos.1 OS/BS [%]",
-                            "attributeName": "due_st1"
-                        },
-                        {
-                            "legendName": "DUES.Horizontalverstellung Pos.2 US/BS [%]",
-                            "attributeName": "due_st2"
-                        },
-                        {
-                            "legendName": "DUES.Horizontalverstellung Pos.3 US/AS [%]",
-                            "attributeName": "due_st3"
-                        },
-                        {
-                            "legendName": "DUES.Horizontalverstellung Pos.4 OS/AS [%]",
-                            "attributeName": "due_st4"
-                        }
-                    ],
-                    "groupName": "Düsenposition"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "OF.Transfer 1 Bandtemp.Messung 1X [°C]",
-                            "attributeName": "fvz2vdff"
-                        },
-                        {
-                            "legendName": "OF.Transfer 1 Bandtemp.Messung 2 [°C]",
-                            "attributeName": "tr1_t2x"
-                        },
-                        {
-                            "legendName": "RTH.Zone 7 Bandtemp.IW [°C]",
-                            "attributeName": "fvz2_glo"
-                        },
-                        {
-                            "legendName": "RTS.Zone 8b Bandtemp.IW [°C]",
-                            "attributeName": "fvz2_hz8"
-                        }
-                    ],
-                    "groupName": "Temperaturen Ofen"
+                    "groupName": "sch_tu1c - Temp_Schopfschere_Unterseite [GRAD C]"
                 },
                 {
                     "attributes": [
@@ -818,7 +921,7 @@
                             "attributeName": "oxro_n2"
                         }
                     ],
-                    "groupName": "Oxidationsrohr"
+                    "groupName": "Oxidationsrohr [m³/h]"
                 },
                 {
                     "attributes": [
@@ -831,7 +934,7 @@
                             "attributeName": "bef_gas2"
                         }
                     ],
-                    "groupName": "Rüsselbefeuchtung"
+                    "groupName": "Rüsselbefeuchtung [1]"
                 },
                 {
                     "attributes": [
@@ -840,7 +943,7 @@
                             "attributeName": "rr_hnxwa"
                         }
                     ],
-                    "groupName": "Schutzgasbefeuchtung"
+                    "groupName": "Schutzgasbefeuchtung [g/h]"
                 },
                 {
                     "attributes": [
@@ -853,43 +956,7 @@
                             "attributeName": "m3_gast"
                         }
                     ],
-                    "groupName": "Kühlturm Lufttemperatur unten"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "AL.Dicke Auslauf [mm]",
-                            "attributeName": "dicke"
-                        }
-                    ],
-                    "groupName": "Banddicke"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Temp_nach Geruest F1 [GRAD C]",
-                            "attributeName": "f1_t5c"
-                        }
-                    ],
-                    "groupName": "f1_t5c"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Temp_Schopfschere_Oberseite [GRAD C]",
-                            "attributeName": "sch_to1c"
-                        }
-                    ],
-                    "groupName": "sch_to1c"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Temp_Schopfschere_Unterseite [GRAD C]",
-                            "attributeName": "sch_tu1c"
-                        }
-                    ],
-                    "groupName": "sch_tu1c"
+                    "groupName": "Kühlturm Lufttemperatur unten [°C]"
                 }
             ],
             "radioName": "Prozessdaten",
@@ -900,87 +967,19 @@
                 {
                     "attributes": [
                         {
-                            "legendName": "Zinkpatzen",
-                            "attributeName": "vza_inspwert_qual"
+                            "legendName": "Schaben Bodenrolle",
+                            "attributeName": "sbr_inspwert_qual"
                         },
                         {
-                            "legendName": "Zinkpatzen",
-                            "attributeName": "vza_inspwert_quant"
+                            "legendName": "Schaben Bodenrolle",
+                            "attributeName": "sbr_inspwert_quant"
                         },
                         {
-                            "legendName": "Zinkpatzen",
-                            "attributeName": "vza_sperrkz"
+                            "legendName": "Schaben Bodenrolle",
+                            "attributeName": "sbr_sperrkz"
                         }
                     ],
-                    "groupName": "VZA - Zinkpatzen"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Schlackenspritzer,Schlackenstreifen",
-                            "attributeName": "vzc_inspwert_qual"
-                        },
-                        {
-                            "legendName": "Schlackenspritzer,Schlackenstreifen",
-                            "attributeName": "vzc_inspwert_quant"
-                        },
-                        {
-                            "legendName": "Schlackenspritzer,Schlackenstreifen",
-                            "attributeName": "vzc_sperrkz"
-                        }
-                    ],
-                    "groupName": "VZC - Schlackenspritzer,Schlackenstreifen"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Duesenstreifen",
-                            "attributeName": "vzd_inspwert_qual"
-                        },
-                        {
-                            "legendName": "Duesenstreifen",
-                            "attributeName": "vzd_inspwert_quant"
-                        },
-                        {
-                            "legendName": "Duesenstreifen",
-                            "attributeName": "vzd_sperrkz"
-                        }
-                    ],
-                    "groupName": "VZD - Duesenstreifen"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Chargieren Zinkband",
-                            "attributeName": "chg_inspwert_qual"
-                        },
-                        {
-                            "legendName": "Chargieren Zinkband",
-                            "attributeName": "chg_inspwert_quant"
-                        },
-                        {
-                            "legendName": "Chargieren Zinkband",
-                            "attributeName": "chg_sperrkz"
-                        }
-                    ],
-                    "groupName": "CHG - Chargieren Zinkband"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "Schaben Stabirolle",
-                            "attributeName": "ssr_inspwert_qual"
-                        },
-                        {
-                            "legendName": "Schaben Stabirolle",
-                            "attributeName": "ssr_inspwert_quant"
-                        },
-                        {
-                            "legendName": "Schaben Stabirolle",
-                            "attributeName": "ssr_sperrkz"
-                        }
-                    ],
-                    "groupName": "SSR - Schaben Stabirolle"
+                    "groupName": "SBR - Schaben Bodenrolle"
                 },
                 {
                     "attributes": [
@@ -1002,19 +1001,36 @@
                 {
                     "attributes": [
                         {
-                            "legendName": "Schaben Bodenrolle",
-                            "attributeName": "sbr_inspwert_qual"
+                            "legendName": "Schaben Stabirolle",
+                            "attributeName": "ssr_inspwert_qual"
                         },
                         {
-                            "legendName": "Schaben Bodenrolle",
-                            "attributeName": "sbr_inspwert_quant"
+                            "legendName": "Schaben Stabirolle",
+                            "attributeName": "ssr_inspwert_quant"
                         },
                         {
-                            "legendName": "Schaben Bodenrolle",
-                            "attributeName": "sbr_sperrkz"
+                            "legendName": "Schaben Stabirolle",
+                            "attributeName": "ssr_sperrkz"
                         }
                     ],
-                    "groupName": "SBR - Schaben Bodenrolle"
+                    "groupName": "SSR - Schaben Stabirolle"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Chargieren Zinkband",
+                            "attributeName": "chg_inspwert_qual"
+                        },
+                        {
+                            "legendName": "Chargieren Zinkband",
+                            "attributeName": "chg_inspwert_quant"
+                        },
+                        {
+                            "legendName": "Chargieren Zinkband",
+                            "attributeName": "chg_sperrkz"
+                        }
+                    ],
+                    "groupName": "CHG - Chargieren Zinkband"
                 },
                 {
                     "attributes": [
@@ -1172,23 +1188,6 @@
                 {
                     "attributes": [
                         {
-                            "legendName": "Zinkbadtemperatur überschritten",
-                            "attributeName": "tzo_inspwert_qual"
-                        },
-                        {
-                            "legendName": "Zinkbadtemperatur überschritten",
-                            "attributeName": "tzo_inspwert_quant"
-                        },
-                        {
-                            "legendName": "Zinkbadtemperatur überschritten",
-                            "attributeName": "tzo_sperrkz"
-                        }
-                    ],
-                    "groupName": "TZO - Zinkbadtemperatur überschritten"
-                },
-                {
-                    "attributes": [
-                        {
                             "legendName": "Aluminium (AL-Deal) Zinkbad uebersch.",
                             "attributeName": "alo_inspwert_qual"
                         },
@@ -1321,6 +1320,74 @@
                         }
                     ],
                     "groupName": "KEI - Querprofilfehler - Keil"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Zinkbadtemperatur überschritten",
+                            "attributeName": "tzo_inspwert_qual"
+                        },
+                        {
+                            "legendName": "Zinkbadtemperatur überschritten",
+                            "attributeName": "tzo_inspwert_quant"
+                        },
+                        {
+                            "legendName": "Zinkbadtemperatur überschritten",
+                            "attributeName": "tzo_sperrkz"
+                        }
+                    ],
+                    "groupName": "TZO - Zinkbadtemperatur überschritten"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Zinkpatzen",
+                            "attributeName": "vza_inspwert_qual"
+                        },
+                        {
+                            "legendName": "Zinkpatzen",
+                            "attributeName": "vza_inspwert_quant"
+                        },
+                        {
+                            "legendName": "Zinkpatzen",
+                            "attributeName": "vza_sperrkz"
+                        }
+                    ],
+                    "groupName": "VZA - Zinkpatzen"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Schlackenspritzer,Schlackenstreifen",
+                            "attributeName": "vzc_inspwert_qual"
+                        },
+                        {
+                            "legendName": "Schlackenspritzer,Schlackenstreifen",
+                            "attributeName": "vzc_inspwert_quant"
+                        },
+                        {
+                            "legendName": "Schlackenspritzer,Schlackenstreifen",
+                            "attributeName": "vzc_sperrkz"
+                        }
+                    ],
+                    "groupName": "VZC - Schlackenspritzer,Schlackenstreifen"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "Duesenstreifen",
+                            "attributeName": "vzd_inspwert_qual"
+                        },
+                        {
+                            "legendName": "Duesenstreifen",
+                            "attributeName": "vzd_inspwert_quant"
+                        },
+                        {
+                            "legendName": "Duesenstreifen",
+                            "attributeName": "vzd_sperrkz"
+                        }
+                    ],
+                    "groupName": "VZD - Duesenstreifen"
                 },
                 {
                     "attributes": [
@@ -2419,93 +2486,6 @@
                 {
                     "attributes": [
                         {
-                            "legendName": "BF",
-                            "attributeName": "sp_breite_bf_os"
-                        },
-                        {
-                            "legendName": "BF",
-                            "attributeName": "sp_breite_bf_us"
-                        },
-                        {
-                            "legendName": "BF",
-                            "attributeName": "area_bf_os"
-                        },
-                        {
-                            "legendName": "BF",
-                            "attributeName": "count_bf_os"
-                        },
-                        {
-                            "legendName": "BF",
-                            "attributeName": "area_bf_us"
-                        },
-                        {
-                            "legendName": "BF",
-                            "attributeName": "count_bf_us"
-                        }
-                    ],
-                    "groupName": "BF - BF"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "sp_breite_vms_os"
-                        },
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "sp_breite_vms_us"
-                        },
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "area_vms_os"
-                        },
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "count_vms_os"
-                        },
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "area_vms_us"
-                        },
-                        {
-                            "legendName": "VMS",
-                            "attributeName": "count_vms_us"
-                        }
-                    ],
-                    "groupName": "VMS - VMS"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "sp_breite_vmc_os"
-                        },
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "sp_breite_vmc_us"
-                        },
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "area_vmc_os"
-                        },
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "count_vmc_os"
-                        },
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "area_vmc_us"
-                        },
-                        {
-                            "legendName": "VMC",
-                            "attributeName": "count_vmc_us"
-                        }
-                    ],
-                    "groupName": "VMC - VMC"
-                },
-                {
-                    "attributes": [
-                        {
                             "legendName": "VZC",
                             "attributeName": "sp_breite_vzc_os"
                         },
@@ -2531,35 +2511,6 @@
                         }
                     ],
                     "groupName": "VZC - VZC"
-                },
-                {
-                    "attributes": [
-                        {
-                            "legendName": "rund",
-                            "attributeName": "sp_breite_rund_os"
-                        },
-                        {
-                            "legendName": "rund",
-                            "attributeName": "sp_breite_rund_us"
-                        },
-                        {
-                            "legendName": "rund",
-                            "attributeName": "area_rund_os"
-                        },
-                        {
-                            "legendName": "rund",
-                            "attributeName": "count_rund_os"
-                        },
-                        {
-                            "legendName": "rund",
-                            "attributeName": "area_rund_us"
-                        },
-                        {
-                            "legendName": "rund",
-                            "attributeName": "count_rund_us"
-                        }
-                    ],
-                    "groupName": "RUND - rund"
                 },
                 {
                     "attributes": [
@@ -2646,7 +2597,7 @@
                             "attributeName": "count_lox_contr_us"
                         }
                     ],
-                    "groupName": "LOX_CONTR - Lox Contr"
+                    "groupName": "LOX CONTR - Lox Contr"
                 },
                 {
                     "attributes": [
@@ -2762,7 +2713,123 @@
                             "attributeName": "count_df_bright_us"
                         }
                     ],
-                    "groupName": "DF_BRIGHT - DF Bright"
+                    "groupName": "DF BRIGHT - DF Bright"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "BF",
+                            "attributeName": "sp_breite_bf_os"
+                        },
+                        {
+                            "legendName": "BF",
+                            "attributeName": "sp_breite_bf_us"
+                        },
+                        {
+                            "legendName": "BF",
+                            "attributeName": "area_bf_os"
+                        },
+                        {
+                            "legendName": "BF",
+                            "attributeName": "count_bf_os"
+                        },
+                        {
+                            "legendName": "BF",
+                            "attributeName": "area_bf_us"
+                        },
+                        {
+                            "legendName": "BF",
+                            "attributeName": "count_bf_us"
+                        }
+                    ],
+                    "groupName": "BF - BF"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "sp_breite_vms_os"
+                        },
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "sp_breite_vms_us"
+                        },
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "area_vms_os"
+                        },
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "count_vms_os"
+                        },
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "area_vms_us"
+                        },
+                        {
+                            "legendName": "VMS",
+                            "attributeName": "count_vms_us"
+                        }
+                    ],
+                    "groupName": "VMS - VMS"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "sp_breite_vmc_os"
+                        },
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "sp_breite_vmc_us"
+                        },
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "area_vmc_os"
+                        },
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "count_vmc_os"
+                        },
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "area_vmc_us"
+                        },
+                        {
+                            "legendName": "VMC",
+                            "attributeName": "count_vmc_us"
+                        }
+                    ],
+                    "groupName": "VMC - VMC"
+                },
+                {
+                    "attributes": [
+                        {
+                            "legendName": "rund",
+                            "attributeName": "sp_breite_rund_os"
+                        },
+                        {
+                            "legendName": "rund",
+                            "attributeName": "sp_breite_rund_us"
+                        },
+                        {
+                            "legendName": "rund",
+                            "attributeName": "area_rund_os"
+                        },
+                        {
+                            "legendName": "rund",
+                            "attributeName": "count_rund_os"
+                        },
+                        {
+                            "legendName": "rund",
+                            "attributeName": "area_rund_us"
+                        },
+                        {
+                            "legendName": "rund",
+                            "attributeName": "count_rund_us"
+                        }
+                    ],
+                    "groupName": "RUND - rund"
                 },
                 {
                     "attributes": [
